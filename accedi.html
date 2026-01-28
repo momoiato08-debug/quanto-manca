@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accedi / Registrati — Quanto manca</title>
+  <meta name="description" content="Accedi o registrati per salvare e sincronizzare i tuoi countdown. Puoi usare email/password o l'accesso Google.">
+  <link rel="canonical" href="https://yourdomain.com/accedi.html">
+  <meta property="og:title" content="Accedi / Registrati — Quanto manca">
+  <meta property="og:description" content="Accedi o registrati per salvare e sincronizzare i tuoi countdown. Usa email/password o Google.">
+  <meta property="og:image" content="https://yourdomain.com/assets/preview.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Countdown predefiniti</a></li>
+      <li><a href="index.html#miei">I miei countdown</a></li>
+      <li><a href="sostienici.html">Sostienici / Condividi</a></li>
+  <li><a href="accedi.html" class="active">Accedi / Registrati</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="header">
+      <h1>Accedi / Registrati</h1>
+      <p class="subtitle">Accedi con la tua email per gestire i tuoi countdown.</p>
+    </div>
+
+    <div class="countdowns single">
+      <form id="auth-form" class="form-card">
+        <div class="form-group">
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" aria-label="Email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="password" class="sr-only">Password</label>
+          <input type="password" id="password" aria-label="Password" placeholder="Password" required>
+        </div>
+
+        <div class="form-actions">
+          <button id="btnRegister" type="button" class="btn btn-primary">Registrati</button>
+          <button id="btnLogin" type="button" class="btn">Accedi</button>
+        </div>
+
+        <div class="oauth-actions">
+          <button id="btnGoogle" type="button" class="btn" style="background: #fff; color:#111; display:flex; align-items:center; gap:8px;"> 
+            <svg width="18" height="18" viewBox="0 0 533.5 544.3" aria-hidden="true" focusable="false"><path fill="#4285F4" d="M533.5 278.4c0-18.5-1.5-37.1-4.6-54.8H272v103.6h147.4c-6.3 33.8-25.6 62.4-54.6 81.4v67.6h88.2c51.7-47.6 82.5-117.8 82.5-197.8z"/><path fill="#34A853" d="M272 544.3c73.6 0 135.4-24.4 180.6-66.4l-88.2-67.6c-24.6 16.6-56 26.4-92.4 26.4-71 0-131.2-47.9-152.7-112.2H30.3v70.3C75 493 165.3 544.3 272 544.3z"/><path fill="#FBBC05" d="M119.3 327.9c-10.5-31.1-10.5-64.6 0-95.7V161.9H30.3c-39.6 79.4-39.6 172.9 0 252.3l89-86.3z"/><path fill="#EA4335" d="M272 107.7c39.9-.6 78.4 14.4 107.6 41.6l80.7-80.7C408.2 24 346.4 0 272 0 165.3 0 75 51.3 30.3 161.9l89 70.3C140.8 155.6 201 107.7 272 107.7z"/></svg>
+            Accedi con Google
+          </button>
+        </div>
+
+  <p id="status" class="subtitle"></p>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="./auth-ui.js"></script>
+
+</body>
+</html>

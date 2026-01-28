@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <title>Quanto manca a Vacanze, Natale, Pasqua, Halloween?</title>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto manca?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Countdown predefiniti</a></li>
+      <li><a href="#miei">I miei countdown</a></li>
+      <li><a href="sostienici.html">Sostienici / Condividi</a></li>
+  <li><a href="accedi.html">Accedi / Registrati</a></li>
+    </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto manca? Countdown per Vacanze, Natale, Pasqua, Halloween</title>
+    <meta name="description" content="Quanto manca? Scopri quanti giorni, ore e minuti mancano agli eventi più attesi: vacanze, Natale, Pasqua e Halloween. Crea anche i tuoi countdown personalizzati.">
+    <link rel="canonical" href="https://yourdomain.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Quanto manca? Countdown per Vacanze, Natale, Pasqua, Halloween">
+    <meta property="og:description" content="Scopri quanti giorni, ore e minuti mancano agli eventi più attesi e crea i tuoi countdown personali.">
+    <meta property="og:image" content="https://yourdomain.com/assets/preview.png">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+          <div class="countdown-card vacanze" id="vacanze" onclick="location.href='quanto-manca-alle-vacanze.html'">
+            <h2>Vacanze estive</h2>
+            <div class="time">
+                <span id="vacanze-days">00</span> giorni
+                <span id="vacanze-hours">00</span> ore
+                <span id="vacanze-minutes">00</span> min
+                <span id="vacanze-seconds">00</span> sec
+            </div>
+        </div>
+        
+  <div class="countdown-card natale" id="natale" onclick="location.href='quanto-manca-a-natale.html'">
+          <h2>Natale</h2>
+            <div class="time">
+              <span id="natale-days">00</span> giorni
+              <span id="natale-hours">00</span> ore
+              <span id="natale-minutes">00</span> min
+              <span id="natale-seconds">00</span> sec
+            </div>
+        </div>
+        
+  <div class= "countdown-card pasqua" id= "pasqua" onclick="location.href='quanto-manca-a-pasqua.html'">
+          <h2>Pasqua</h2>
+          <div class= "time" >
+                <span id="pasqua-days">00</span> giorni
+                <span id="pasqua-hours">00</span> ore
+                <span id="pasqua-minutes">00</span> min
+                <span id="pasqua-seconds">00</span> sec
+          </div>
+        </div>
+        
+  <div class="countdown-card halloween" id="halloween" onclick="location.href='quanto-manca-ad-halloween.html'">
+          <h2>Halloween</h2>
+          <div class="time">
+              <span id="halloween-days">00</span> giorni
+              <span id="halloween-hours">00</span> ore
+              <span id="halloween-minutes">00</span> min
+              <span id="halloween-seconds">00</span> sec
+          </div>
+      </div>
+      </div>
+      <div class="create-countdown">
+    <a class="create-card" href="crea.html">
+        <svg class="create-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14.06 6.19l2.12-2.12a2 2 0 0 1 2.83 0l1.06 1.06a2 2 0 0 1 0 2.83l-2.12 2.12" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Crea il tuo countdown</span>
+    </a>
+</div> 
+    <section id="miei" class="section-anchor" style="margin-top: 40px;">
+      <div class="header">
+        <h2>I miei countdown</h2>
+        <p class="subtitle">Qui appariranno i countdown che crei.</p>
+      </div>
+      <div class="countdowns" id="my-countdowns"></div>
+</section>
+  <script type="module" src="./auth-ui.js"></script>
+</body>
+</html>
