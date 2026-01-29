@@ -182,22 +182,22 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     box-shadow: 0 25px 60px rgba(0,0,0,0.45);
 }
 .natale {
-    background-image: url("assets/natale.jpeg");
+    background-image: url("natale.jpeg");
     background-size: cover;
     background-position: center;
 }
 .vacanze {
-    background-image: url("assets/vacanze.jpeg");
+    background-image: url("vacanze.jpeg");
     background-size: cover;
     background-position: center;
 }
 .pasqua {
-    background-image: url("assets/pasqua.jpeg");
+    background-image: url("pasqua.jpeg");
     background-size: cover;
     background-position: center;
 }
 .halloween {
-    background-image: url("assets/halloween.jpeg");
+    background-image: url("halloween.jpeg");
     background-size: cover;
     background-position: center;
 }

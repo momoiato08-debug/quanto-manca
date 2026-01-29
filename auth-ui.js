@@ -28,7 +28,7 @@ function setLoggedIn(link, user) {
     logoutItem.querySelector('#btnLogout').addEventListener('click', async () => {
       const res = await signOutUser();
       if (res && res.ok) {
-        location.href = 'index.html';
+        location.href = '/index.html';
       } else {
         console.error('Logout failed', res.error);
         alert('Errore durante il logout');

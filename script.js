@@ -228,7 +228,7 @@ function attachCreateFormHandler() {
     if (!isLogged && list.length >= 2) {
       const go = confirm('Hai già 2 countdown salvati localmente. Per salvarne di più e sincronizzarli su più dispositivi effettua l\'accesso (Email o Google). Vuoi accedere ora?');
       if (go) {
-        window.location.href = 'accedi.html?next=crea.html';
+        window.location.href = '/accedi.html?next=crea.html';
       }
       return;
     }
@@ -236,7 +236,7 @@ function attachCreateFormHandler() {
     list.push({ title, target });
     saveMyCountdowns(list);
 
-    window.location.href = 'index.html#miei';
+    window.location.href = '/index.html#miei';
   });
 }
 
