@@ -14,6 +14,7 @@ export default defineConfig({
         halloween: resolve(__dirname, 'quanto-manca-ad-halloween.html'),
         vacanze: resolve(__dirname, 'quanto-manca-alle-vacanze.html'),
         capodanno: resolve(__dirname, 'quanto-manca-a-capodanno.html'),
+        gta6: resolve(__dirname, 'quanto-manca-a-gta6.html'),
       },
     },
   },

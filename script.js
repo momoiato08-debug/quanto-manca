@@ -78,6 +78,8 @@ const halloweenDate = new Date("October 31, 2026 00:00:00").getTime();
 const halloweenLastDate = new Date("October 31, 2025 00:00:00").getTime();
 const capodannoDate = new Date("January 1, 2027 00:00:00").getTime();
 const capodannoLastDate = new Date("January 1, 2026 00:00:00").getTime();
+const gta6Date = new Date("November 1, 2025 00:00:00").getTime(); // Stima Fall 2025
+const gta6LastDate = new Date("December 5, 2023 00:00:00").getTime(); // Trailer 1
 
 countdown(vacanzeDate, {
     days: "vacanze-days",
@@ -141,6 +143,19 @@ countup(capodannoLastDate, {
   hours: "capodanno-last-hours",
   minutes: "capodanno-last-minutes",
   seconds: "capodanno-last-seconds"
+});
+
+countdown(gta6Date, {
+  days: "gta6-days",
+  hours: "gta6-hours",
+  minutes: "gta6-minutes",
+  seconds: "gta6-seconds"
+});
+countup(gta6LastDate, {
+  days: "gta6-last-days",
+  hours: "gta6-last-hours",
+  minutes: "gta6-last-minutes",
+  seconds: "gta6-last-seconds"
 });
 
 function getMyCountdowns() {

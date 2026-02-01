@@ -206,6 +206,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
+.gta6 {
+    background-image: url("gta6.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 .create-countdown {
     display: flex;
     justify-content: center;
