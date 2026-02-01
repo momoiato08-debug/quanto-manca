@@ -201,6 +201,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
+.capodanno {
+    background-image: url("capodanno.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 .create-countdown {
     display: flex;
     justify-content: center;

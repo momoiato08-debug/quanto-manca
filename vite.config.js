@@ -13,6 +13,7 @@ export default defineConfig({
         pasqua: resolve(__dirname, 'quanto-manca-a-pasqua.html'),
         halloween: resolve(__dirname, 'quanto-manca-ad-halloween.html'),
         vacanze: resolve(__dirname, 'quanto-manca-alle-vacanze.html'),
+        capodanno: resolve(__dirname, 'quanto-manca-a-capodanno.html'),
       },
     },
   },

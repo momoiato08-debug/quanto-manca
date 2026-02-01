@@ -76,6 +76,8 @@ const pasquaDate = new Date("April 5, 2026 00:00:00").getTime();
 const pasquaLastDate = new Date("April 20, 2025 00:00:00").getTime();
 const halloweenDate = new Date("October 31, 2026 00:00:00").getTime();
 const halloweenLastDate = new Date("October 31, 2025 00:00:00").getTime();
+const capodannoDate = new Date("January 1, 2027 00:00:00").getTime();
+const capodannoLastDate = new Date("January 1, 2026 00:00:00").getTime();
 
 countdown(vacanzeDate, {
     days: "vacanze-days",
@@ -127,6 +129,20 @@ countup(halloweenLastDate, {
   minutes: "halloween-last-minutes",
   seconds: "halloween-last-seconds"
 });
+
+countdown(capodannoDate, {
+  days: "capodanno-days",
+  hours: "capodanno-hours",
+  minutes: "capodanno-minutes",
+  seconds: "capodanno-seconds"
+});
+countup(capodannoLastDate, {
+  days: "capodanno-last-days",
+  hours: "capodanno-last-hours",
+  minutes: "capodanno-last-minutes",
+  seconds: "capodanno-last-seconds"
+});
+
 function getMyCountdowns() {
   try { return JSON.parse(localStorage.getItem('my_countdowns') || '[]'); }
   catch { return []; }
