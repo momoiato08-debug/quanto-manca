@@ -247,14 +247,23 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 }
 
 @media (max-width: 640px) {
-    .countdowns { grid-template-columns: 1fr; padding: 0 16px; gap: 18px; }
-    .header { padding-top: 48px; margin-bottom: 28px; }
-    .header h1 { font-size: 2.4rem; }
-    .header .subtitle { font-size: 1rem; }
+    .navbar { position: relative; background: transparent; padding: 10px 0; }
     .navbar ul { gap: 12px; flex-wrap: wrap; padding: 10px 12px; }
 
-    .countdown-card { padding: 16px; border-radius: 14px; min-width: auto; width: 100%; }
-    .countdown-card .time { font-size: 1rem; }
+    .countdowns { grid-template-columns: 1fr; padding: 0 16px; gap: 18px; }
+    .header { padding-top: 24px; margin-bottom: 24px; }
+    .header h1 { font-size: 2rem; }
+    .header .subtitle { font-size: 1rem; margin-bottom: 20px; }
+
+    .countdown-card { padding: 16px; border-radius: 14px; min-width: auto; width: 100%; max-width: 400px; margin: 0 auto; display: block; }
+    .countdown-card .time { font-size: 0.9rem; margin-top: 10px; }
+    .countdown-card .time span { font-size: 1.25rem; }
+    .countdown-card h2 { font-size: 1.25rem; }
+    
+    .countdown-card.is-large { padding: 20px; }
+    .countdown-card.is-large .time { font-size: 1.1rem; }
+    .countdown-card.is-large .time span { font-size: 1.5rem; }
+
     .create-card { padding: 12px 16px; gap: 8px; }
 
     .form-card { padding: 18px; max-width: 520px; margin: 0 auto; }
