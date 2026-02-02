@@ -15,6 +15,7 @@ export default defineConfig({
         vacanze: resolve(__dirname, 'quanto-manca-alle-vacanze.html'),
         capodanno: resolve(__dirname, 'quanto-manca-a-capodanno.html'),
         gta6: resolve(__dirname, 'quanto-manca-a-gta6.html'),
+        maturita: resolve(__dirname, 'quanto-manca-alla-maturità.html'),
       },
     },
   },

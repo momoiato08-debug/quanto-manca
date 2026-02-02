@@ -78,8 +78,10 @@ const halloweenDate = new Date("October 31, 2026 00:00:00").getTime();
 const halloweenLastDate = new Date("October 31, 2025 00:00:00").getTime();
 const capodannoDate = new Date("January 1, 2027 00:00:00").getTime();
 const capodannoLastDate = new Date("January 1, 2026 00:00:00").getTime();
-const gta6Date = new Date("November 19, 2026 00:00:00").getTime(); // Stima Fall 2025
+const gta6Date = new Date("November 1, 2025 00:00:00").getTime(); // Stima Fall 2025
 const gta6LastDate = new Date("December 5, 2023 00:00:00").getTime(); // Trailer 1
+const maturitaDate = new Date("June 17, 2026 08:30:00").getTime(); // Prima prova 2026 (stima)
+const maturitaLastDate = new Date("September 15, 2025 08:00:00").getTime(); // Inizio scuola 2025
 
 countdown(vacanzeDate, {
     days: "vacanze-days",
@@ -156,6 +158,19 @@ countup(gta6LastDate, {
   hours: "gta6-last-hours",
   minutes: "gta6-last-minutes",
   seconds: "gta6-last-seconds"
+});
+
+countdown(maturitaDate, {
+  days: "maturita-days",
+  hours: "maturita-hours",
+  minutes: "maturita-minutes",
+  seconds: "maturita-seconds"
+});
+countup(maturitaLastDate, {
+  days: "maturita-last-days",
+  hours: "maturita-last-hours",
+  minutes: "maturita-last-minutes",
+  seconds: "maturita-last-seconds"
 });
 
 function getMyCountdowns() {

@@ -211,6 +211,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
+.maturita {
+    background-image: url("maturita.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 .create-countdown {
     display: flex;
     justify-content: center;
