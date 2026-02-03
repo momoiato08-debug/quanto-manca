@@ -16,6 +16,7 @@ export default defineConfig({
         capodanno: resolve(__dirname, 'quanto-manca-a-capodanno.html'),
         gta6: resolve(__dirname, 'quanto-manca-a-gta6.html'),
         maturita: resolve(__dirname, 'quanto-manca-alla-maturità.html'),
+        tutti: resolve(__dirname, 'tutti-i-countdown.html'),
       },
     },
   },
