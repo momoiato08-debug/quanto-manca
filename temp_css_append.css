@@ -1,0 +1,53 @@
+
+/* Stile specifico per la pagina "Tutti i countdown" */
+#tutti-i-countdown .countdowns {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+}
+
+#tutti-i-countdown .countdown-card {
+    background-image: none !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 10px;
+    min-width: 0;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tutti-i-countdown .countdown-card::before {
+    display: none;
+}
+
+#tutti-i-countdown .countdown-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+#tutti-i-countdown .countdown-card .time {
+    font-size: 0.8rem;
+    margin-top: 0;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#tutti-i-countdown .countdown-card .time span {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Nascondi le etichette "giorni", "ore" etc per risparmiare spazio se necessario, 
+   o rendile più piccole */
+#tutti-i-countdown .countdown-card .time {
+    color: rgba(255,255,255,0.8);
+}
