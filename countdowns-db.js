@@ -107,6 +107,18 @@ export const countdowns = [
     countupDate: "2025-03-04T00:00:00", // Carnevale 2025
     elapsedTitle: "Quanto è passato",
     bgClass: "carnevale"
-  }
+  },
+  {
+  id: "san-valentino",           // Es: "san-valentino"
+  slug: "quanto-manca-a-san-valentino",   // Sarà il nome del file HTML
+  title: "Quanto manca a San Valentino?",  // Titolo nella pagina
+  subtitle: "Sottotitolo descrittivo...",
+  seoTitle: "Quanto manca a San Valentino? ❤️", // Titolo per Google
+  seoDescription: "Scopri quanti giorni, ore e minuti mancano a San Valentino. Countdown sempre aggiornato.",
+  targetDate: "2026-02-14T00:00:00", // Data futura
+  countupDate: "2025-02-14T00:00:00", // Data passata (per "quanto è passato")
+  elapsedTitle: "Quanto è passato",
+  bgClass: "classe-css-sfondo"  // Nome della classe per lo sfondo (vedi step 2)
+},
 ];
 
