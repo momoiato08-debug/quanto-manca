@@ -101,7 +101,7 @@ export const countdowns = [
     slug: "quanto-manca-a-carnevale",
     title: "Quanto manca a Carnevale?",
     subtitle: "Scopri quanto tempo manca a Carnevale 2026.",
-    seoTitle: "Quanto manca a Carnevale? �",
+    seoTitle: "Quanto manca a Carnevale? ",
     seoDescription: "Scopri quanti giorni, ore e minuti mancano a Carnevale. Countdown sempre aggiornato.",
     targetDate: "2026-02-17T00:00:00", // Carnevale 2026 (Martedì Grasso)
     countupDate: "2025-03-04T00:00:00", // Carnevale 2025
@@ -109,16 +109,16 @@ export const countdowns = [
     bgClass: "carnevale"
   },
   {
-  id: "san-valentino",           // Es: "san-valentino"
-  slug: "quanto-manca-a-san-valentino",   // Sarà il nome del file HTML
-  title: "Quanto manca a San Valentino?",  // Titolo nella pagina
-  subtitle: "Sottotitolo descrittivo...",
-  seoTitle: "Quanto manca a San Valentino? ❤️", // Titolo per Google
-  seoDescription: "Scopri quanti giorni, ore e minuti mancano a San Valentino. Countdown sempre aggiornato.",
-  targetDate: "2026-02-14T00:00:00", // Data futura
-  countupDate: "2025-02-14T00:00:00", // Data passata (per "quanto è passato")
-  elapsedTitle: "Quanto è passato",
-  bgClass: "classe-css-sfondo"  // Nome della classe per lo sfondo (vedi step 2)
-},
+    id: "san-valentino",
+    slug: "quanto-manca-a-san-valentino",
+    title: "Quanto manca a San Valentino?",
+    subtitle: "Scopri quanto tempo manca a San Valentino 2026.",
+    seoTitle: "Quanto manca a San Valentino? ❤️",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano a San Valentino. Countdown sempre aggiornato.",
+    targetDate: "2026-02-14T00:00:00",
+    countupDate: "2025-02-14T00:00:00",
+    elapsedTitle: "Quanto è passato",
+    bgClass: "san-valentino"
+  },
 ];
 
