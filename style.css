@@ -226,6 +226,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
+.san-valentino {
+    background-image: url("sanvalentino.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 .create-countdown {
     display: flex;
     justify-content: center;
