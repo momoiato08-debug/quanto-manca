@@ -216,6 +216,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
+.maturita-scientifico {
+    background-image: url("maturità.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 .ferragosto {
     background-image: url("ferragosto.jpeg");
     background-size: cover;
@@ -231,6 +236,12 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
+.maturita-scientifica {
+    background-image: url("maturità.jpeg"); /* Uso la stessa immagine per ora */
+    background-size: cover;
+    background-position: center;
+}
+
 .create-countdown {
     display: flex;
     justify-content: center;
