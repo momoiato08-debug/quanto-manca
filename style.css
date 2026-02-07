@@ -216,11 +216,21 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
-.maturita-scientifico {
-    background-image: url("maturità.jpeg");
+.maturita-scientifico,
+.gta6-ps5,
+.gta6-xbox,
+.gta6-pc,
+.gta6-online,
+.gta6-multiplayer,
+.gta6-trailer2,
+.gta6-gameplay,
+.gta6-release-mondiale,
+.gta6-release-europa {
+    background-image: url("gta6.jpeg");
     background-size: cover;
     background-position: center;
 }
+
 .ferragosto {
     background-image: url("ferragosto.jpeg");
     background-size: cover;
