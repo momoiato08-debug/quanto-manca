@@ -133,5 +133,101 @@ export const countdowns = [
     elapsedTitle: "Dall'inizio della scuola",
     bgClass: "maturita-scientifica"
   },
+  {
+    id: "maturita-classica",
+    slug: "quanto-manca-alla-maturita-classica",
+    title: "Quanto manca alla Maturità Classica?",
+    subtitle: "Scopri quanto tempo manca alla Maturità Classica 2026.",
+    seoTitle: "Quanto manca alla Maturità Classica? 🏛️",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Maturità Classica. Countdown sempre aggiornato.",
+    targetDate: "2026-06-17T08:30:00",
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "maturita-classica"
+  },
+  {
+    id: "maturita-artistico",
+    slug: "quanto-manca-alla-maturita-liceo-artistico",
+    title: "Quanto manca alla Maturità Liceo Artistico?",
+    subtitle: "Scopri quanto tempo manca alla Maturità Liceo Artistico 2026.",
+    seoTitle: "Quanto manca alla Maturità Artistico? 🎨",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Maturità Liceo Artistico. Countdown sempre aggiornato.",
+    targetDate: "2026-06-17T08:30:00",
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "maturita-artistico"
+  },
+  {
+    id: "maturita-tecnico",
+    slug: "quanto-manca-alla-maturita-istituto-tecnico",
+    title: "Quanto manca alla Maturità Istituto Tecnico?",
+    subtitle: "Scopri quanto tempo manca alla Maturità Istituto Tecnico 2026.",
+    seoTitle: "Quanto manca alla Maturità Tecnico? 🔧",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Maturità Istituto Tecnico. Countdown sempre aggiornato.",
+    targetDate: "2026-06-17T08:30:00",
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "maturita-tecnico"
+  },
+  {
+    id: "maturita-professionale",
+    slug: "quanto-manca-alla-maturita-professionale",
+    title: "Quanto manca alla Maturità Professionale?",
+    subtitle: "Scopri quanto tempo manca alla Maturità Professionale 2026.",
+    seoTitle: "Quanto manca alla Maturità Professionale? 🛠️",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Maturità Professionale. Countdown sempre aggiornato.",
+    targetDate: "2026-06-17T08:30:00",
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "maturita-professionale"
+  },
+  {
+    id: "prima-prova-maturita",
+    slug: "quanto-manca-alla-prima-prova-maturita",
+    title: "Quanto manca alla Prima Prova Maturità?",
+    subtitle: "Scopri quanto tempo manca alla Prima Prova della Maturità 2026.",
+    seoTitle: "Quanto manca alla Prima Prova Maturità? ✍️",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Prima Prova della Maturità. Countdown sempre aggiornato.",
+    targetDate: "2026-06-17T08:30:00",
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "prima-prova-maturita"
+  },
+  {
+    id: "seconda-prova-maturita",
+    slug: "quanto-manca-alla-seconda-prova-maturita",
+    title: "Quanto manca alla Seconda Prova Maturità?",
+    subtitle: "Scopri quanto tempo manca alla Seconda Prova della Maturità 2026.",
+    seoTitle: "Quanto manca alla Seconda Prova Maturità? 📝",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Seconda Prova della Maturità. Countdown sempre aggiornato.",
+    targetDate: "2026-06-18T08:30:00",
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "seconda-prova-maturita"
+  },
+  {
+    id: "terza-prova-simulata",
+    slug: "quanto-manca-alla-terza-prova-simulata-maturita",
+    title: "Quanto manca alla Terza Prova Simulata?",
+    subtitle: "Scopri quanto tempo manca alla Terza Prova Simulata Maturità 2026.",
+    seoTitle: "Quanto manca alla Terza Prova Simulata? 📚",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Terza Prova Simulata. Countdown sempre aggiornato.",
+    targetDate: "2026-05-15T08:30:00", // Data ipotetica
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "terza-prova-simulata"
+  },
+  {
+    id: "esami-terza-media",
+    slug: "quanto-manca-agli-esami-di-terza-media",
+    title: "Quanto manca agli Esami di Terza Media?",
+    subtitle: "Scopri quanto tempo manca agli Esami di Terza Media 2026.",
+    seoTitle: "Quanto manca agli Esami di Terza Media? 🎓",
+    seoDescription: "Scopri quanti giorni, ore e minuti mancano agli Esami di Terza Media. Countdown sempre aggiornato.",
+    targetDate: "2026-06-08T08:30:00", // Data ipotetica
+    countupDate: "2025-09-15T08:00:00",
+    elapsedTitle: "Dall'inizio della scuola",
+    bgClass: "esami-terza-media"
+  },
 ];
 

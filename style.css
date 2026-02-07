@@ -236,8 +236,16 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     background-size: cover;
     background-position: center;
 }
-.maturita-scientifica {
-    background-image: url("maturità.jpeg"); /* Uso la stessa immagine per ora */
+.maturita-scientifica,
+.maturita-classica,
+.maturita-artistico,
+.maturita-tecnico,
+.maturita-professionale,
+.prima-prova-maturita,
+.seconda-prova-maturita,
+.terza-prova-simulata,
+.esami-terza-media {
+    background-image: url("maturità.jpeg");
     background-size: cover;
     background-position: center;
 }
