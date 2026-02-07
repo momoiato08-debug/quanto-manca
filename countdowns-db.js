@@ -120,18 +120,7 @@ export const countdowns = [
     elapsedTitle: "Quanto è passato",
     bgClass: "san-valentino"
   },
-  {
-  id: "maturità-scientifico",           // Es: "san-valentino"
-  slug: "quanto-manca-a-maturità-scientifico",   // Sarà il nome del file HTML
-  title: "Quanto manca alla Maturità dello Scientifico?",  // Titolo nella pagina
-  subtitle: "Sottotitolo descrittivo...",
-  seoTitle: "Quanto manca a Maturità dello Scientifico?", // Titolo per Google
-  seoDescription: "Scopri quanti giorni, ore e minuti mancano alla Maturità dello Scientifico. Countdown sempre aggiornato.",
-  targetDate: "2026-06-18T08:30:00", // Data futura
-  countupDate: "2025-06-18T08:30:00", // Data passata (per "quanto è passato")
-  elapsedTitle: "Quanto è passato",
-  bgClass: "maturita-scientifico"  // Nome della classe per lo sfondo (vedi step 2)
-},
+
   {
     id: "maturita-scientifica",
     slug: "quanto-manca-alla-maturita-scientifica",
