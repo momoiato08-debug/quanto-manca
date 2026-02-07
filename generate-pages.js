@@ -42,7 +42,17 @@ const tuttiTemplate = fs.readFileSync(tuttiTemplatePath, 'utf-8');
 // Genera le card HTML per ogni countdown nel DB
 const cardsHtml = countdowns.map(item => `
       <div class="countdown-card ${item.bgClass}" id="${item.id}" onclick="location.href='/${item.slug}.html'">
-        <h2>${item.title.replace('Quanto manca a ', '').replace('Quanto manca alle ', '').replace('Quanto manca all\'uscita di ', '').replace('Quanto manca ad ', '').replace('Quanto manca alla ', '').replace('?', '')}</h2>
+        <h2>${item.title
+          .replace("Quanto manca all'uscita della ", "")
+          .replace("Quanto manca all'uscita di ", "")
+          .replace("Quanto manca al rilascio di ", "")
+          .replace("Quanto manca alla ", "")
+          .replace("Quanto manca alle ", "")
+          .replace("Quanto manca agli ", "")
+          .replace("Quanto manca ad ", "")
+          .replace("Quanto manca al ", "")
+          .replace("Quanto manca a ", "")
+          .replace("?", "")}</h2>
         <div class="time" data-countdown="${item.targetDate}">
           <span class="days">00</span> giorni
           <span class="hours">00</span> ore

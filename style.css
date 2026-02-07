@@ -225,10 +225,15 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 .gta6-trailer2,
 .gta6-gameplay,
 .gta6-release-mondiale,
-.gta6-release-europa {
+.gta6-release-europa,
+.one-piece-stagione-2 {
     background-image: url("gta6.jpeg");
     background-size: cover;
     background-position: center;
+}
+
+.one-piece-stagione-2 {
+    background-image: url("onepiece.jpeg");
 }
 
 .ferragosto {
@@ -483,6 +488,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
     text-overflow: ellipsis;
     max-width: 100%;
 }
+
+#tutti-i-countdown .countdown-card h2::first-letter {
+    text-transform: uppercase;
+}
+
 
 #tutti-i-countdown .countdown-card .time {
     font-size: 0.8rem;

@@ -337,5 +337,17 @@ export const countdowns = [
     elapsedTitle: "Dall'inizio della scuola",
     bgClass: "esami-terza-media"
   },
+  {
+    id: "one-piece-stagione-2",
+    slug: "quanto-manca-all-uscita-della-stagione-2-di-one-piece-netflix",
+    title: "Quanto manca all'uscita della stagione 2 di One Piece (live-action) su Netflix?",
+    subtitle: "Scopri quanto tempo manca all'uscita della stagione 2 di One Piece (live-action) su Netflix, fissata per il 15 luglio 2026.",
+    seoTitle: "Quanto manca a One Piece Stagione 2? 🏴‍☠️",
+    seoDescription: "Countdown all'uscita della stagione 2 di One Piece (live-action) su Netflix.",
+    targetDate: "2026-07-15T00:00:00",
+    countupDate: "2023-08-31T00:00:00", // Data uscita stagione 1
+    elapsedTitle: "Dall'uscita della stagione 1",
+    bgClass: "one-piece-stagione-2"
+  },
 ];
 
